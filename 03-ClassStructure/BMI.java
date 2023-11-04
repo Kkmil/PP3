@@ -20,13 +20,15 @@ public class BMI {
     }
 
     public void display(){
-        System.out.println("Name: "+name);
-        System.out.println("Weight: "+weight+" kg");
-        System.out.println("Height: "+height+" m");
+        System.out.println("Name: " + name);
+        System.out.println("Weight: " + weight + " kg");
+        System.out.println("Height: " + height + " m");
         System.out.printf("BMI: ", BMI, "\n");
         if (BMI <= 18.5) {
-            System.out.println("BMI is too low.");} else if (BMI >= 24.9){
-                System.out.println("BMI is too high.");} else {
+            System.out.println("BMI is too low.");} 
+            else if (BMI >= 24.9){
+                System.out.println("BMI is too high.");} 
+                else {
                     System.out.println("BMI is normal.");}
     }
 
@@ -40,7 +42,7 @@ public class BMI {
         p2.setWeightAndHeight(75, 160);
         p2.calculateBMI();
         p2.display();
-        p3.setWeightAndHeight(55, 165);
+        p3.setWeightAndHeight(50, 165);
         p3.calculateBMI();
         p3.display();
     }
