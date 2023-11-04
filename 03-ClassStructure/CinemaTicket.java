@@ -22,7 +22,7 @@ public class CinemaTicket {
         System.out.println(cinemaName +", " + filmTitle +", row " + row + ", seat "+seat+", price: "+price);
     };
     public static void main(String[] args){
-        CinemaTicket.cinemaName = "Impression Cinema";
+        CinemaTicket.cinemaName = "Morning Star Cinema";
         CinemaTicket t1 = new CinemaTicket("Gladiator",2,20);
         CinemaTicket t2 = new CinemaTicket("Gladiator",7,30);
         
